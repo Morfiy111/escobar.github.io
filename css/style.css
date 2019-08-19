@@ -5,6 +5,7 @@
 body {
     font-family: 'zero5';
     line-height: 1.1;
+    color: #4d4d4d;
 }
 .header-grey {
     background-color: #141b2e;
@@ -138,7 +139,7 @@ body {
 }
 .main-background {
     background-color: #fff;
-    padding: 30px;
+    padding: 30px 0 30px 30px;
     background-size: 100%;
     border-radius: 50px;
 }
@@ -154,13 +155,11 @@ body {
 }
 
 .rabs label {
-    background-color: #e7aa01;
+    background-color: transparent;
     display: inline-block;
     color: #333;
     padding: 6px 5px;
     cursor:pointer;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     font-weight: normal;
     font-size: 13px;
 }
@@ -168,11 +167,11 @@ body {
     background-color: #e98000;
 }
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary, .btn-default.active, .btn-default.active:hover, .btn-primary.active:hover, .btn-primary:hover, .btn-default:hover, .btn-default.active:focus, .btn-default:active:focus, .btn-primary:active:hover {
-    background-color: #e98000;
+    background-color: #efa029;
     border: none;
     color: #333;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    border-radius: 50px;
+    box-shadow: none;
 }
 .btn-primary, .btn-default, .btn-default:focus, .btn-default.focus {
     border: none;
@@ -186,20 +185,15 @@ body {
     width: 100%;
 }
 .btn-buy a {
-    display: block;
-    text-align: center;
-    background-color: #e7aa01;
-    padding: 5px 0;
-    color: #333;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    color: #4d4d4d;
+    padding: 10px;
+    border: 1px solid #4d4d4d;
+    border-radius: 50px;
 }
-.composition-white-text {
-    padding: 20px 20px 40px 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 20px;
-    position: relative;
+.btn-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .owl-prev {
     position: absolute;
@@ -244,12 +238,6 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
-.composition-block {
-    background-color: rgba(224, 165, 0, 0.72);
-    padding-top: 1px;
-    min-height: 290px;
-    margin-top: 30px;
-}
 .main-title-size {
     font-size: 45px;
     margin-bottom: 45px;
@@ -260,9 +248,11 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 10px;
+    background-color: #eeeeee;
+    border-radius: 50px;
 }
 .rabs label {
-    width: 48%;
+    width: 33%;
     text-align: center;
 }
 .main-title-size-top {
@@ -271,6 +261,7 @@ body {
 .composition-list {
     margin-bottom: 15px;
     min-height: 40px;
+    height: 76px;
 }
 .composition-list-set {
     margin-bottom: 15px;
@@ -484,6 +475,7 @@ textarea.form-control {
 .owl-carousel-pizza {
     margin-bottom: 30px;
     display: flex;
+    flex-wrap: wrap;
 }
 .cart_content {
     position: relative;
@@ -497,6 +489,7 @@ textarea.form-control {
 }
 .carousel-goods {
     width: 23%;
+    margin-right: 20px;
 }
 @media(min-width: 768px) {
     .navbar-nav {
