@@ -8,6 +8,7 @@
 }
 body {
     font-family: 'zero5';
+    line-height: 1.1;
 }
 h1, h2, h3, h4 {
     font-family: 'Shnobel-Regular';
@@ -28,22 +29,21 @@ h1, h2, h3, h4 {
 }
 .header-select select {
     padding: 2px 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-image: url("../images/lupa.png");
+    border-radius: 10px;
+    background-image: url("../images/caret.svg");
     background-position: 5px 50%;
-    background-size: 16px;
+    background-size: 9px;
     background-repeat: no-repeat;
     color: #000;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none !important;
 }
 .header-select select:focus, .header-cart input {
     outline: none;
     color: #000;
-}
-.header-cart {
-    display: flex;
-    align-items: center;
 }
 .header-cart img {
     width: 50px;
@@ -59,16 +59,43 @@ h1, h2, h3, h4 {
     background-size: 12px;
     background-repeat: no-repeat;
 }
-.header-logo, .header-time {
-    width: 12%;
+.header-logo {
+    width: 15%;
+}
+.header-time {
+    display: flex;
+    align-items: center;
+}
+.header-time-text {
+    font-size: 24px;
+}
+.header-time-text span {
+    font-size: 12px;
+    display: block;
+}
+.header-time img {
+    width: 60px;
+    margin-right: 10px;
 }
 .header-select label {
     display: block;
 }
 .header-address-tel a {
-    color: #fe0000;
+    color: #fff;
     font-size: 20px;
-    font-weight: bold;
+}
+.header-img-phone img{
+    width: 40px;
+    margin-bottom: 5px;
+}
+.header-cart {
+    color: #efa029;
+}
+.cart-description {
+    font-size: 20px;
+}
+.cart-price-block {
+    font-size: 28px;
 }
 .owl-carousel {
     width: 100%;
@@ -483,6 +510,9 @@ textarea.form-control {
     background-position: 100% 0;
     background-size: 100px;
     background-repeat: no-repeat;
+}
+.header-address {
+    text-align: center;
 }
 @media(min-width: 768px) {
     .navbar-nav {
