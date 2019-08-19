@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2899905-9807-465c-8902-7f994eabad5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn5.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/btn5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lupa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Shnobel-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/left-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/right-line.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,25 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="29" />
+            <state relative-caret-position="236">
+              <caret line="224" column="185" selection-start-line="224" selection-start-column="185" selection-end-line="224" selection-end-column="185" />
             </state>
           </provider>
         </entry>
@@ -50,6 +52,9 @@
     <findStrings>
       <find>btn-</find>
       <find>btn</find>
+      <find>h1</find>
+      <find>left</find>
+      <find>ва</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,14 +63,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="294" />
+    <option name="x" value="141" />
+    <option name="y" value="100" />
     <option name="width" value="1388" />
     <option name="height" value="706" />
   </component>
@@ -75,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,6 +102,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,18 +134,19 @@
       <option name="presentableId" value="Default" />
       <updated>1565950329533</updated>
       <workItem from="1565950331403" duration="1225000" />
-      <workItem from="1566193826546" duration="7687000" />
+      <workItem from="1566193826546" duration="7715000" />
+      <workItem from="1566207857334" duration="3638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8912000" />
+    <option name="totallyTimeSpent" value="12578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="294" width="1388" height="706" extended-state="0" />
+    <frame x="141" y="100" width="1388" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25337332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25712144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -152,7 +159,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33101046" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33101046" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -165,19 +172,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="29" />
+        <state relative-caret-position="236">
+          <caret line="224" column="185" selection-start-line="224" selection-start-column="185" selection-end-line="224" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
         </state>
       </provider>
     </entry>

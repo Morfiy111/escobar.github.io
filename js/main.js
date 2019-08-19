@@ -21,32 +21,6 @@ var owl = $('.owl-carousel');
 		owl.trigger('autoplay.stop.owl')
 	})
     
- var itemsCount=3;
-        if (window.matchMedia("(max-width: 991px)").matches) {
-            itemsCount=2;
-        }
-        if (window.matchMedia("(max-width: 767px)").matches) {
-            itemsCount=1;
-        }  
-    var owl = $('.owl-carousel-pizza');
-	owl.owlCarousel({
-		items:itemsCount,
-		loop:true,
-		margin:0,
-        nav:true,
-        dots: false,
-		autoplay:false,
-		autoplayTimeout:3000,
-        autoplayHoverPause:true
-	});
-	$('.play').on('click',function(){
-		owl.trigger('autoplay.play.owl',[3000])
-	})
-				
-	$('.stop').on('click',function(){
-		owl.trigger('autoplay.stop.owl')
-	})
-    
 $(document).ready(function() {
     $('#cart').bind('click', function () {
         $('#cart, #cart_content').toggleClass('show');
