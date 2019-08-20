@@ -343,16 +343,15 @@ h1, h2, h3, h4, h5 {
     right: 0px;
     z-index: 9;
     transition: all ease-in-out .3s;
-    color: #e60000;
     color: #fff;
     font-size: 1.5em;
     cursor: pointer;
-    background: #e60000;
+    background: #efa029;
     border: solid 1px #333;
     padding: 5px 6px 5px 10px;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, .5);
-    border-radius: 48% 0 0 48%;
+    border-radius: 50px 0 0 50px;
 }
 #cart.show {
     right: 360px;
@@ -476,14 +475,6 @@ textarea.form-control {
 #cart_content .quantity input {
     width: 45px;
 }
-.owl-carousel-pizza .carousel-photo:after {
-    content: '';
-    width: 90%;
-    position: absolute;
-    box-shadow: 0px 9px 32px -10px rgba(0,0,0,1);
-    height: 1px;
-    
-}
 .owl-carousel-pizza {
     margin-bottom: 30px;
     display: flex;
@@ -522,11 +513,20 @@ textarea.form-control {
     .composition-list {
         height: 70px;
     }
-    .composition-white-text {
-        padding: 20px 20px 30px 20px;
+    .carousel-goods {
+        margin-right: 15px;
     }
-    .composition-block {
-        min-height: 324px;
+    .composition-list {
+        height: 100px;
+    }
+    .composition-block h3 {
+        height: 53px;
+    }
+    .footer-cart-pay {
+        width: 18%;
+    }
+    .footer-feedback {
+        width: 28%;
     }
 }
 @media (max-width: 991px) {
@@ -539,6 +539,30 @@ textarea.form-control {
     .header-logo, .header-time {
         width: 10%;
     }
+    .carousel-goods {
+        width: 31%;
+    }
+    .header-logo {
+        width: 22%;
+    }
+    .header-time img {
+        width: 40px;
+    }
+    .header-time-text {
+        font-size: 18px;
+    }
+    .header-time {
+        width: 27%;
+    }
+    .footer-cart-pay {
+        width: 23%;
+    }
+    .footer-feedback {
+        width: 35%;
+    }
+    .social-img i {
+        font-size: 34px;
+    }
 }
 @media (max-width: 767px) {
     .header-cart {
@@ -549,13 +573,13 @@ textarea.form-control {
         margin-bottom: 20px;
     }
     .header-time {
-        width: 30%;
+        width: auto;
     }
     .header-select {
-        width: 30%;
+        width: auto;
     }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-        background-color: #fe0000;
+        background-color: #efa029;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff;
@@ -586,9 +610,6 @@ textarea.form-control {
     .footer-social-icon {
         justify-content: center;
     }
-    .footer-feedback-img {
-        text-align: center;
-    }
     .navbar-nav {
         margin: 0;
     }
@@ -598,36 +619,40 @@ textarea.form-control {
     .navbar-default .navbar-nav > li > a:hover {
         color: #fff;
     }
-    .composition-white-text {
-        padding: 20px 20px 45px 20px;
-    }
     .navbar-default {
         padding: 0;
+    }
+    .carousel-goods {
+        width: 46%;
+    }
+    .navbar-default .navbar-collapse {
+        padding: 0 15px;
     }
 }
 @media (max-width: 450px) {
     .header-logo {
-        width: 48%;
+        width: 100%;
     }
     .header-time {
-        width: 48%;
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
     }
     .header-select {
         width: 48%;
+        text-align: center;
     }
     .header-address {
         width: 48%;
     }
     .header-cart {
         width: 100%;
-    }
-    .header-address {
-        margin-bottom: 30px;
+        text-align: center;
+        margin-top: 15px;
     }
     .header-cart input {
         width: 100%;
     }
-    
     #cart_content {
         width: 100%;
     }
@@ -639,5 +664,29 @@ textarea.form-control {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .header-row-flex {
+        align-items: flex-start;
+    }
+    .carousel-goods {
+        width: 100%;
+    }
+    .composition-list {
+        height: auto;
+    }
+    .composition-block h3 {
+        height: auto;
+    }
+    .footer-cart-pay, .footer-feedback {
+        width: 100%;
+    }
+    .carousel-goods {
+        margin-right: 0;
+    }
+    .main-background {
+        padding: 30px;
+    }
+    .orange-cart-block {
+        padding-right: 0;
     }
 }
