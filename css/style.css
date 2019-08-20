@@ -652,6 +652,9 @@ textarea.form-control {
     .header-row-flex {
         padding: 20px 15px;
     }
+    .navbar-nav > li {
+        padding: 10px;
+    }
 }
 @media (max-width: 450px) {
     .header-logo {
