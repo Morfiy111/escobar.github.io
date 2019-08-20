@@ -15,6 +15,9 @@ body {
 a, button {
     transition: all .3s linear;
 }
+a:hover {
+    text-decoration: none;
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Intro';
 }
@@ -92,7 +95,7 @@ h1, h2, h3, h4, h5 {
     width: 40px;
     margin-bottom: 5px;
 }
-.header-cart {
+.header-cart a {
     color: #efa029;
 }
 .cart-description {
