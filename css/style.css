@@ -2,10 +2,21 @@
     font-family: 'zero5';
     src: url('../fonts/zero5.otf');
 }
+@font-face {
+    font-family: 'Intro';
+    src: url('../fonts/Intro.otf');
+}
 body {
     font-family: 'zero5';
     line-height: 1.1;
     color: #4d4d4d;
+    overflow-x: hidden;
+}
+a, button {
+    transition: all .3s linear;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Intro';
 }
 .header-grey {
     background-color: #141b2e;
@@ -190,6 +201,11 @@ body {
     border: 1px solid #4d4d4d;
     border-radius: 50px;
 }
+.btn-buy a:hover {
+    background-color: #4d4d4d;
+    color: #fff;
+    text-decoration: none;
+}
 .btn-buy {
     display: flex;
     justify-content: space-between;
@@ -236,12 +252,10 @@ body {
 }
 .composition-block h3 {
     font-size: 24px;
-    font-weight: bold;
 }
 .main-title-size {
     font-size: 45px;
     margin-bottom: 45px;
-    font-weight: bold;
 }
 .rabs {
     display: flex;
@@ -275,8 +289,7 @@ body {
     font-size: 16px;
 }
 .orange-cart-block {
-    padding: 30px 0;
-    background-color: rgba(231, 170, 1, 0.7);
+    padding-right: 30px;
 }
 .footer-flex {
     display: flex;
@@ -286,25 +299,23 @@ body {
     padding: 30px 0;
 }
 .footer-flex a {
-    color: #fe0000;
+    color: #fff;
 }
 .footer-flex img {
     width: 100%;
-}
-.footer-logo, .footer-time {
-    width: 13%;
 }
 .footer-address {
     width: 15%;
 }
 .footer-feedback {
     width: 25%;
+    display: flex;
+    align-items: center;
 }
 .footer-social-icon {
     display: flex;
 }
 .social-img {
-    width: 35px;
     margin-left: 10px;
 }
 .footer-cart-pay-img {
@@ -316,10 +327,12 @@ body {
 .footer-cart-pay-img img {
     height: 34px;
     width: auto;
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 .footer-cart-pay {
     width: 14%;
+    display: flex;
+    align-items: center;
 }
 #cart {
     margin: 0 !important;
@@ -449,11 +462,10 @@ textarea.form-control {
 }
 #send-order {
     text-align: center;
-    background-color: #e7aa01;
+    background-color:#efa029;
     padding: 10px 0;
     color: #333;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
     border: none;
     margin-top: 10px;
@@ -479,7 +491,6 @@ textarea.form-control {
 }
 .cart_content {
     position: relative;
-    background-image: url("../images/cart-bird.png");
     background-position: 100% 0;
     background-size: 100px;
     background-repeat: no-repeat;
@@ -490,6 +501,16 @@ textarea.form-control {
 .carousel-goods {
     width: 23%;
     margin-right: 20px;
+}
+.social-img i {
+    font-size: 40px;
+}
+.social-img span {
+    font-size: 22px;
+}
+.footer-flex a:hover {
+    color: #e7aa01;
+    text-decoration: none;
 }
 @media(min-width: 768px) {
     .navbar-nav {
