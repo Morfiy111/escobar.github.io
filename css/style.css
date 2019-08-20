@@ -91,12 +91,18 @@ h1, h2, h3, h4, h5 {
     color: #fff;
     font-size: 20px;
 }
+.header-address-tel a:hover {
+    color: #efa029;
+}
 .header-img-phone img{
     width: 40px;
     margin-bottom: 5px;
 }
 .header-cart a {
     color: #efa029;
+}
+.header-cart a:hover {
+    color: #fff;
 }
 .cart-description {
     font-size: 20px;
