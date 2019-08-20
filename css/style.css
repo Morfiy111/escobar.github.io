@@ -35,13 +35,15 @@ h1, h2, h3, h4, h5 {
     width: 100%;
 }
 .header-select select {
-    padding: 2px 20px;
+    padding: 6px 20px;
     border-radius: 10px;
     background-image: url("../images/caret.svg");
     background-position: 5px 50%;
     background-size: 9px;
     background-repeat: no-repeat;
+    background-color: #fff;
     color: #000;
+    width: 100%;
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -86,6 +88,8 @@ h1, h2, h3, h4, h5 {
 }
 .header-select label {
     display: block;
+    font-size: 20px;
+    font-weight: normal;
 }
 .header-address-tel a {
     color: #fff;
@@ -109,6 +113,11 @@ h1, h2, h3, h4, h5 {
 }
 .cart-price-block {
     font-size: 32px;
+    margin-top: 5px;
+}
+.header-cart {
+    position: relative;
+    top: 3px;
 }
 .owl-carousel {
     width: 100%;
@@ -576,17 +585,19 @@ textarea.form-control {
 }
 @media (max-width: 767px) {
     .header-cart {
-        width: 48%;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
     }
     .header-logo {
         width: 30%;
         margin-bottom: 20px;
     }
     .header-time {
-        width: auto;
+        width: 48%;
     }
     .header-select {
-        width: auto;
+        width: 48%;
     }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
         background-color: #efa029;
@@ -637,6 +648,9 @@ textarea.form-control {
     }
     .navbar-default .navbar-collapse {
         padding: 0 15px;
+    }
+    .header-row-flex {
+        padding: 20px 15px;
     }
 }
 @media (max-width: 450px) {
