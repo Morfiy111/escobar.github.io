@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    padding: 15px;
+    padding: 20px 0;
 }
 .header-logo img, .header-time img {
     width: 100%;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5 {
     background-color: #141b2e;
     border-color: transparent;
     border-radius: 0;
-    padding: 15px 0px;
+    padding:0 0;
     border: none;
 }
 .owl-theme .owl-controls {
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: #eeeeee;
     border-radius: 50px;
 }
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5 {
 }
 .footer-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: #fff;
     padding: 30px 0;
@@ -501,6 +501,7 @@ textarea.form-control {
 .carousel-goods {
     width: 23%;
     margin-right: 20px;
+    padding: 10px;
 }
 .social-img i {
     font-size: 40px;
